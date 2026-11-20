@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
 
   void login() {
     if (idController.text.trim().toLowerCase() == 'clarisse' &&
-        passwordController.text == '1234') {
+        passwordController.text == '2007') {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const MainPage()),
@@ -334,7 +334,7 @@ class HomePage extends StatelessWidget {
           title: 'Expériences',
           icon: Icons.work_outline,
           children: [
-            'Stages, projets et expériences professionnelles : .',
+            'Stages, projets et expériences professionnelles:entreprise, développement d’applications, maintenance de systèmes informatiques, etc.',
           ],
         ),
         const CvSection(
@@ -351,9 +351,14 @@ class HomePage extends StatelessWidget {
           children: ['Français'],
         ),
         const CvSection(
-          title: 'Centres d’intérêt',
-          icon: Icons.favorite_outline,
-          children: ['À compléter.'],
+          title: 'Expériences professionnelles',
+          icon: Icons.work_outline,
+          children: [
+            'Stage académique : participation aux activités informatiques en entreprise.',
+            'Travaux pratiques en HTML et CSS.',
+            'Conception de pages web avec WordPress.',
+            'Initiation au développement d’applications avec Flutter.',
+          ],
         ),
       ],
     );
@@ -500,7 +505,9 @@ class ContactPage extends StatelessWidget {
           child: ListTile(
             leading: Icon(Icons.location_on, color: navy),
             title: Text('Adresse'),
-            subtitle: Text('Adresse physique Goma, République Démocratique du Congo'),
+            subtitle: Text(
+              'Adresse physique Goma, République Démocratique du Congo',
+            ),
           ),
         ),
         Card(
