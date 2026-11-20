@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
 
   void login() {
     if (idController.text.trim().toLowerCase() == 'clarisse' &&
-        passwordController.text == '2007') {
+        passwordController.text == '1234') {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const MainPage()),
