@@ -212,16 +212,18 @@ des données personnelles de test.
 
 ## Démonstration vidéo
 
-Les quatre vidéos MP4 sont suivies par Git LFS et peuvent être ouvertes depuis
-GitHub :
+Les quatre vidéos MP4 sont stockées avec Git LFS. Les liens ci-dessous pointent
+directement vers les fichiers hébergés par GitHub. L’aperçu intégré de la page
+du dépôt peut ne pas être disponible pour les fichiers LFS volumineux ; selon
+le navigateur, le lien ouvre la vidéo ou la télécharge.
 
-1. **Fichier `api.sql` et backend** — [Lire la vidéo](assets/videos/01-api-sql-backend.mp4)
+1. **Fichier `api.sql` et backend** — [Lire la vidéo](https://media.githubusercontent.com/media/claratshenge-sys/cv_clarisse/main/assets/videos/01-api-sql-backend.mp4)
    Fichier source : `api.sql - api-test - Visual Studio Code 2026-11-23 10-06-32.mp4`
-2. **Présentation de l’application CV Clarisse Lodi** — [Lire la vidéo](assets/videos/02-cv-clarisse-lodi.mp4)
+2. **Présentation de l’application CV Clarisse Lodi** — [Lire la vidéo](https://media.githubusercontent.com/media/claratshenge-sys/cv_clarisse/main/assets/videos/02-cv-clarisse-lodi.mp4)
    Fichier source : `CV - Clarisse Lodi et 1 page supplémentaire - Personnel – Microsoft​ Edge 2026-11-23 09-57-24.mp4`
-3. **Base de données `famille_membre` dans phpMyAdmin** — [Lire la vidéo](assets/videos/03-famille-membre-phpmyadmin.mp4)
+3. **Base de données `famille_membre` dans phpMyAdmin** — [Lire la vidéo](https://media.githubusercontent.com/media/claratshenge-sys/cv_clarisse/main/assets/videos/03-famille-membre-phpmyadmin.mp4)
    Fichier source : `localhost _ 127.0.0.1 _ api _ famille_membre _ phpMyAdmin 5.2.1 et 1 page supplémentaire - Personnel – Microsoft​ Edge 2026-11-23 10-14-29.mp4`
-4. **Autres opérations de démonstration dans phpMyAdmin** — [Lire la vidéo](assets/videos/04-operations-phpmyadmin.mp4)
+4. **Autres opérations de démonstration dans phpMyAdmin** — [Lire la vidéo](https://media.githubusercontent.com/media/claratshenge-sys/cv_clarisse/main/assets/videos/04-operations-phpmyadmin.mp4)
    Fichier source : `localhost _ 127.0.0.1 _ api _ famille_membre _ phpMyAdmin 5.2.1 et 1 page supplémentaire - Personnel – Microsoft​ Edge 2026-11-23 10-30-54.mp4`
 
 ## Scénario de la vidéo de démonstration
